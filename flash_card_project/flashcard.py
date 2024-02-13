@@ -41,7 +41,7 @@ window = Tk()
 window.title("French Flashcard")
 window.config(padx=50, pady=50)
 
-flip_timer = window.after(3000, func=flip_card)
+flip_timer = window.after(5000, func=flip_card)
 
 canvas = Canvas(width=800, height=600)
 card_front_img = PhotoImage(file="flash_card_project/images/card_front.png")
