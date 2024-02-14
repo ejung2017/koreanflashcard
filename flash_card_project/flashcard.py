@@ -38,7 +38,7 @@ def is_known():
 
 
 window = Tk()
-window.title("French Flashcard")
+window.title("Korean Flashcard")
 window.config(padx=50, pady=50)
 
 flip_timer = window.after(5000, func=flip_card)
